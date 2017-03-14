@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SVG</title>
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+	<script type="text/javascript">
+		$(document).ready( function() {
+		} );
+	</script>
+</head>
+<body>
+	<!-- circle svg -->
+	<svg width="200" height="200">
+		<circle cx="100" cy="100" r="50" stroke="green" stroke-width="4" fill="yellow" />
+	</svg>
+	<!-- rounded corners rectangle -->
+	<svg width="200" height="200">
+		<rect width="150" height="150" x="20" y="20" rx="30" ry="30" style="fill:red; stroke:black; stroke-width:5; opacity:1"></rect>
+	</svg>
+	<!-- shape with opacity -->
+	<svg width="200" height="200">
+		<rect width="150" height="150" x="20" y="20" style="fill:red; stroke:black; stroke-width:5; opacity:0.6"></rect>
+	</svg>	
+	<!-- ellipse -->
+	<svg height="200" width="500">
+		<ellipse cx="200" cy="80" rx="200" ry="50" style="fill:yellow;stroke:purple;stroke-width:2" />
+	</svg>
+	<!-- line -->
+	<svg height="200" width="200">
+		<line x1="0" y1="0" x2="200" y2="200" style="stroke:rgb(255,0,0);stroke-width:2" />
+		<line x1="0" y1="200" x2="200" y2="0" style="stroke:rgb(255,0,0);stroke-width:2" />		
+		<line x1="100" y1="200" x2="100" y2="0" style="stroke:rgb(255,0,0);stroke-width:2" />		
+	</svg>
+	<!-- polygon -->
+	<svg height="200" width="200">
+	<polygon points="100, 10 40, 198 190, 78 10, 78 160, 198" style="fill:lime;stroke:purple;stroke-width:1" />
+	</svg>	
+</body>
+</html>
